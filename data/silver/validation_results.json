@@ -1,0 +1,20 @@
+{
+  "total_records": 7043,
+  "unique_customers": 7043,
+  "churned_count": 1869,
+  "null_check": 0,
+  "segment_distribution": [
+    {
+      "customer_segment": "Growing",
+      "count": 1856
+    },
+    {
+      "customer_segment": "Loyal",
+      "count": 3001
+    },
+    {
+      "customer_segment": "New",
+      "count": 2186
+    }
+  ]
+}

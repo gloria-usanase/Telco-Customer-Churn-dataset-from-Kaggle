@@ -1,0 +1,8 @@
+{
+  "dataset_source": "Kaggle",
+  "dataset_slug": "blastchar/telco-customer-churn",
+  "download_timestamp": "2025-11-09T16:36:10.946588",
+  "file_path": "/opt/pipeline/data/bronze/telco_customer_churn.csv",
+  "file_size_bytes": 977501,
+  "file_size_mb": 0.93
+}

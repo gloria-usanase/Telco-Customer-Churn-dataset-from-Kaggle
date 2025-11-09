@@ -1,0 +1,32 @@
+{
+  "file_exists": true,
+  "row_count": 7043,
+  "column_count": 21,
+  "columns": [
+    "customerID",
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "tenure",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "MonthlyCharges",
+    "TotalCharges",
+    "Churn"
+  ],
+  "memory_usage_mb": 7.79,
+  "has_nulls": false,
+  "null_columns": [],
+  "validation_timestamp": "2025-11-09T16:36:10.997843"
+}
