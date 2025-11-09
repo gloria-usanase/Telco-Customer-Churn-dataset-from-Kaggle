@@ -1,0 +1,15 @@
+# Pipeline Cron Schedule
+# This file configures when the pipeline runs automatically
+#
+# Format: minute hour day month weekday command
+#
+# Examples:
+# - Run daily at 2 AM: 0 2 * * * /usr/local/bin/python3 /opt/pipeline/orchestrator.py
+# - Run every 6 hours: 0 */6 * * * /usr/local/bin/python3 /opt/pipeline/orchestrator.py
+# - Run Monday-Friday at 8 AM: 0 8 * * 1-5 /usr/local/bin/python3 /opt/pipeline/orchestrator.py
+
+# Default: Run daily at 2 AM
+0 2 * * * cd /opt/pipeline && /usr/local/bin/python3 /opt/pipeline/orchestrator.py >> /opt/pipeline/logs/cron.log 2>&1
+
+# Note: To enable cron scheduling, uncomment the line above and rebuild the container
+# For now, the pipeline runs once on container start
